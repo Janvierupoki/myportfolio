@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*  navigation bar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+  .navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+} 
+ 
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+  
+  /* home section */
+  #home {
+    text-align: center;
+    padding: 100px 0;
+    background: url(seven.jpg) no-repeat center center/cover;
+    color: white;
+  }
+  
+  #home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  #home p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* about section */
+  #about {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+
+  }
+  
+  #about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+  }
+  
+  #about p {
+    font-size: 18px;
+    color:white;
+    margin-bottom: 40px;
+  }
+  #about img{
+    width:auto;
+    height: auto;
+    padding: auto;
+  }
+ 
+  
+  /* portfolio section */
+  #portfolio {
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+
+    
+  }
+  
+  #portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: white;
+ 
+  }
+  
+  .portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+  }
+  
+  .portfolio-items .item {
+    text-align: center;
+
+  }
+  
+  .portfolio-items .item img {
+    width: 100%;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .portfolio-items .item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .portfolio-items .item p {
+    font-size: 16px;
+    color:white;
+  }
+  
+  /* contact section */
+  #contact {
+    padding: 80px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color:lightblue;
+  }
+  
+  #contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+    color:black;
+    margin-bottom: 40px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    justify-content: center;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color:green;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /*  footer section */
+  footer {
+    background-color: #333;
+    color:#fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
+  .icon{
+    display:inline;
+    margin-right:  20px;
+    width: 40px;
+  }
+ 
